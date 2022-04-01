@@ -10,6 +10,6 @@ System.Console.WriteLine("Введите b2");
 double b2 = Convert.ToDouble(Console.ReadLine());
 System.Console.WriteLine("Введите k2");
 double k2 = Convert.ToDouble(Console.ReadLine());
-double xCross = -((b1 -b2)/(k1 -k2));
+double xCross = -((b1 - b2) / (k1 - k2));
 double yCross = k2 * xCross + b2;
 System.Console.WriteLine($"Точка пересечения ({xCross}; {yCross})");
